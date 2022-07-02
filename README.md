@@ -1,3 +1,32 @@
+Detalhes para utilização:
+
+Chamadas REST:
+Somar: http://localhost:8181/calculadora/somar/{valor1}/{valor2}
+Exemplo somar: http://localhost:8181/calculadora/somar/1.5/2
+Retorno: "O resultado da soma é: 3.5"
+
+Subtrair: http://localhost:8181/calculadora/subtrair/{valor1}/{valor2}
+Exemplo subtrair: http://localhost:8181/calculadora/subtrair/1.5/2
+Retorno: "O resultado da subtração é: -0.5"
+
+Multiplicar: http://localhost:8181/calculadora/multiplicar/{valor1}/{valor2}
+Exemplo multiplicar: http://localhost:8181/calculadora/multiplicar/1.5/2
+Retorno: "O resultado da multiplicação é: 3.0"
+
+Dividir: http://localhost:8181/calculadora/dividir/{valor1}/{valor2}
+Exemplo dividir: http://localhost:8181/calculadora/dividir/1.5/2
+Retorno: "O resultado da divisão é: 0.75"
+
+Calcular Todos: http://localhost:8181/calculadora/calcular-todos/{valor1}/{valor2}
+Exemplo calcular todos: http://localhost:8181/calculadora/calcular-todos/1.5/2
+Retorno: "Os resultados são:
+            O resultado da soma é: 3.5
+            O resultado da subtração é: -0.5
+            O resultado da multiplicação é: 3.0
+            O resultado da divisão é: 0.75"
+
+
+
 # code-with-quarkus Project
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
